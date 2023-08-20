@@ -1,0 +1,189 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,500;0,600;1,100;1,300&display=swap");
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #10221b;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 9%;
+    z-index: 1000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header .logo {
+    margin-right: auto;
+    font-size: 3rem;
+    color: white;
+    font-weight: bolder;
+}
+
+.header .navbar a {
+    margin-left: 2rem;
+    font-size: 1.7rem;
+    color: white;
+}
+
+.header .navbar a:hover {
+    color: aqua;
+}
+
+
+/*home*/
+
+section {
+    padding: 5rem 9%;
+}
+
+.home {
+    padding: 0;
+}
+
+.home .box {
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    background-size: cover !important;
+    background-position: center !important;
+    -webkit-box-pack: end;
+    -ms-flex-pack: end;
+    justify-content: flex-end;
+    padding: 2rem 9%;
+}
+
+.home .box.second {
+    -webkit-box-pack: start;
+    -ms-flex-pack: start;
+    justify-content: flex-start;
+}
+
+.home .box .content {
+    width: 20rem;
+}
+
+.home .box .content span {
+    font-size: 3rem;
+    color: white;
+}
+
+.home .box .content h5 {
+    font-size: 3.5rem;
+    color: #ee0b03;
+    padding-top: .5rem;
+    text-transform: uppercase;
+}
+
+.home .box .content p {
+    line-height: 2;
+    color: white;
+    font-size: 1.5rem;
+    padding: 1rem 0;
+}
+
+
+/*BUTTON*/
+
+.btn {
+    margin-top: 1rem;
+    display: inline-block;
+    border: 0.2rem solid lightyellow;
+    color: white;
+    cursor: pointer;
+    background: none;
+    font-size: 1.7rem;
+    padding: 1rem 3rem;
+    border-radius: 40px;
+}
+
+.btn:hover {
+    background: white;
+    color: rgb(31, 35, 88);
+}
+
+
+/*swiper*/
+
+.swiper-button-next::after,
+.swiper-button-prev::after {
+    font-size: 1rem;
+    color: #000000;
+}
+
+
+/*scr*/
+
+.scrolling-active {
+    background-color: lightcoral;
+    box-shadow: 0 3px 1rem lightcoral;
+}
+
+
+/*Footer*/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(165, 12, 12);
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+    text-align: center;
+}

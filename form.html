@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+
+<head lang="eng">
+
+    <meta charset="utf-8">
+    <title>Join Us</title>
+    <!-- title of the page -->
+
+    <link rel="stylesheet" href="form.css">
+    <!-- Linking the stylesheet -->
+
+
+    <!-- import the icons form fontawsome -->
+</head>
+
+<body>
+    <header class="header">
+        <a href="index.html" class="logo"><img src="images/f8.png" class="logo" alt=""> RGMW</a>
+
+        <nav class="navbar">
+
+
+            <a href="index.html">Home</a>
+
+
+        </nav>
+    </header>
+
+    <!-- *** -->
+    <!-- The Heading, Logo and the Navigation bar common for all the pages -->
+    <!-- <h1>Rithik</h1>
+    <div class="navbar">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+
+            <p id="onpage">Join Us</p>
+        </ul>
+    </div>-->
+
+    <!--<div class="log">
+        <img src="f3.jpg" alt="logo" width="70" height="70">
+    </div>-->
+
+    <!-- End of the common element -->
+    <!-- *** -->
+
+    <!-- The container that the form elements are displayed -->
+    <div class="formcontainer" id="formcontainer">
+
+        <h2 class="formtopic">JOIN US</h2>
+        <!-- topic of the form -->
+
+        <form name="query" id="query">
+            <!-- The form with the required feilds -->
+            <div>
+                <label for="firstname">Name:</label>
+                <br>
+                <input type="text" name="fname" id="name1" size="35">
+            </div>
+
+            <!--<div>
+                <label for="lastname">Last Name:</label>
+                <br>
+                <input type="text" name="lname" id="name2" size="35">
+placeholder="rithiksubasinghe2001@gmail.com"placeholder="Delivery"  placeholder="How much to send to the USA"placeholder="Rithik Gagana Subasinghe"
+            </div>-->
+            <br>
+            <div>
+                <label for="Email">Email:</label>
+                <br>
+                <input type="mail" name="mail" id="mail" size="35">
+            </div>
+            <br>
+            <div>
+                <label for="subject">Subject:</label>
+                <br>
+                <input type="text" name="subject" id="subject" size="35">
+            </div>
+            <br>
+            <div>
+                <label for="Description">Details:</label>
+                <br>
+                <textarea name="feedback" id="feedback" rows="15" cols="65"></textarea>
+            </div>
+            <br>
+        </form>
+        <button class="sender" onclick="validation()"><b>Submit</b></button>
+        <!-- button to validate the form and submit -->
+    </div>
+
+    <div class="formviwer" id="formviwer">
+        <!-- The container that view the form detais -->
+
+        <div class="detailviwer" id="detailviwer"></div>
+        <!-- The data display area of the form -->
+
+        <div class="formfoot" id="formfoot">
+            <!-- The footer of the form viwer -->
+            <!-- buttons respectively to send and edit the form -->
+            <button class="sender" onclick="editForm()" value="Edit">Edit</button>
+            <button class="sender" onclick="sendForm()" value="Send">Send</button>
+        </div>
+    </div>
+    <!-- *** --->
+    <!-- The footer of the page common for all pages -->
+    <!--
+    <footer>
+        <div class="container">
+            <div class="row">
+                <div class="footer-col">
+                    <h2>Visit Us</h2>
+                    <ul>
+                        <li><a href="https://www.facebook.com/anonews.co/?ti=as"><i class="fab fa-facebook-square"></i>Facebook</a></li>
+                        <li><a href="https://instagram.com/anonymous?utm_medium=copy_link"><i class="fab fa-instagram"></i>Instagram</a></li>
+                        <li><a href="https://youtube.com/anonymous"><i class="fab fa-youtube"></i>YouTube</a></li>
+                        <li><a href="https://twitter.com/anonymousofcl"><i class="fab fa-twitter"></i>Twitter</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>-->
+    <!--<div class="me">
+        <br>
+        <p>&copy; Anonymous Group <br> All rights reserved
+            <br> Developed By : <a href="#">Rithik Subasinghe</a></p>
+    </div>-->
+
+    <!-- End of the footer common for all pages -->
+    <!-- *** -->
+
+
+
+
+
+
+    <script src="form.js">
+    </script>
+    <!-- Linking the JavaScript File -->
+
+</body>
+
+</html>

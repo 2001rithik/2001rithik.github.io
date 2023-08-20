@@ -1,0 +1,265 @@
+/*all elements are added and a padding of 0px*/
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+
+/*-----*/
+
+
+/*The CSS part common to all the pages the styling of the header, navigation bar and the footer	elements*/
+
+h1 {
+    color: white;
+    text-align: center;
+    font-size: 100px;
+    background-color: black;
+}
+
+.log {
+    position: absolute;
+    top: 20px;
+    left: 200px;
+}
+
+.navbar ul {
+    padding: 40px 40px;
+    text-align: right;
+    color: white;
+    background-color: black;
+}
+
+.navbar ul li {
+    display: inline-flex;
+    list-style: none;
+    margin: 0 20px;
+    font-size: 20px;
+    font-family: impact;
+}
+
+.navbar ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+.navbar ul li a:hover {
+    -webkit-transform: scale(1.5);
+    transform: scale(1.5);
+    text-decoration: underline;
+    transition-duration: 1s;
+}
+
+#onpage {
+    font-size: 33px;
+    color: white;
+    text-decoration: underline;
+}
+
+
+/*End of the common styling*/
+
+
+/*-----*/
+
+
+/* the styling the body of the page form*/
+
+body {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("images/f3.jpg");
+    background-color: black;
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    background-repeat: repeat;
+}
+
+
+/*The styling of the separated area that contain the form elements to input data*/
+
+.formcontainer {
+    background-image: url("images/f11.jpg");
+    background-size: cover;
+    color: white;
+    margin: 120px 100px 100px 240px;
+    padding: 10px;
+    height: 680px;
+    width: 1000px;
+    border: 2px solid white;
+    border-radius: 15px;
+    position: absolute;
+}
+
+
+/*The styling of the separated area that contain the form elements to display input data*/
+
+.formviwer {
+    display: none;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(f11.jpg);
+    background-size: cover;
+    color: white;
+    margin: 120px 100px 100px 240px;
+    padding: 10px;
+    height: 680px;
+    width: 1000px;
+    border: 2px solid white;
+    border-radius: 15px;
+    position: absolute;
+}
+
+
+/*CSS for the text that display the inputed data*/
+
+.detailviwer {
+    margin: 70px 0 50px 20px;
+    font-weight: 600;
+    font-size: 25px;
+    padding: 25px;
+}
+
+
+/*Styling for the area containig the buttons in the form*/
+
+.formfoot {
+    margin-left: 20px;
+}
+
+
+/*common styling for the form objects*/
+
+form {
+    text-align: justify-all;
+    padding-left: 40px;
+    padding-top: 15px;
+    padding: 40px;
+}
+
+
+/*Styling the topic of the form*/
+
+.formtopic {
+    text-align: left;
+    font-size: 40px;
+    color: rgb(214, 13, 13);
+    margin-left: 40px;
+}
+
+
+/*Styling the buttons of the form*/
+
+.sender {
+    background-color: white;
+    margin-top: -20px;
+    margin-left: 40px;
+    color: black;
+    height: 45px;
+    width: 100px;
+    border-radius: 10px;
+}
+
+
+/* Hover effects for buttons*/
+
+.sender:hover {
+    background-color: black;
+    color: white;
+}
+
+
+/*new*/
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    -webkit-transition: .2s linear;
+    transition: .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-behavior: smooth;
+    scroll-padding-top: 5rem;
+}
+
+html::-webkit-scrollbar {
+    width: 1rem;
+}
+
+html::-webkit-scrollbar-track {
+    background: #fff;
+}
+
+html::-webkit-scrollbar-thumb {
+    background: #10221b;
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    padding: 2rem 9%;
+    z-index: 1000;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+}
+
+.header .logo {
+    margin-right: auto;
+    font-size: 3rem;
+    color: #10221b;
+    font-weight: bolder;
+}
+
+.header .navbar a {
+    margin-left: 2rem;
+    font-size: 1.7rem;
+    color: black;
+}
+
+.header .navbar a:hover {
+    color: aqua;
+}
+
+
+/*footer*/
+
+footer {
+    position: absolute;
+    bottom: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: rgb(165, 12, 12);
+    height: auto;
+    width: 100vw;
+    padding-top: 40px;
+    color: rgb(0, 0, 0);
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.footer-content {
+    font-size: 1.8rem;
+    font-weight: 400;
+    line-height: 3rem;
+    text-align: center;
+}
